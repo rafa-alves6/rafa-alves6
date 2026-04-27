@@ -1,0 +1,99 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5in,nofoot]{geometry}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{*1}{*1}
+
+\newcommand{\entry}[4]{
+    \noindent\textbf{#1} \hfill #2 \\
+    \noindent\textit{#3} \hfill \textit{#4} \\
+    \vspace{2pt}
+}
+
+\newcommand{\project}[2]{
+    \noindent\textbf{#1} \hfill #2 \\
+    \vspace{2pt}
+}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{\Large RAFAEL ALVES}
+
+\vspace{0.4em}
+
+\noindent \faMapMarker ~ Aracaju, Sergipe, Brazil ~
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+\raggedleft
+{\color{black}} {\faPhone \space +55 (79) 99916-2489} \quad
+{\color{blue}} \href{mailto:rafaelalves7393@gmail.com}{\faEnvelope \space rafaelalves7393@gmail.com}
+
+\vspace{0.2em}
+
+{\color{blue}} \href{https://github.com/rafa-alves6}{\faGithub \space GitHub} \quad
+{\color{blue}} \href{https://www.linkedin.com/in/rafael-alves-bb0403302/}{\faLinkedin \space LinkedIn} \\
+\end{minipage}
+
+\vspace{0.5em}
+
+\section*{Professional Profile}
+\vspace{0.4em}
+\noindent A Systems Development student passionate about software engineering and solving complex business problems. I am dedicated to writing clean, maintainable code with a strong foundation in Object-Oriented Design and a focus on the Java and Spring Boot ecosystem. Interested in contributing to a collaborative, feedback-driven environment, applying practices such as TDD and SOLID principles to build impactful and innovative software solutions.
+
+\vspace{0.5em}
+
+\section*{Projects}
+\vspace{0.6em}
+\project{SmartMed API | \normalfont{\textit{Java, Spring Boot, Spring Security, TDD}}}{\textbf{April 2025}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+    \item Developed a RESTful API to streamline patient management and appointment scheduling for medical clinics.
+    \item Applied \textbf{SOLID principles} and \textbf{Object-Oriented Design} to build a clean, maintainable, and scalable architecture.
+    \item Implemented safe trunit and integration tests following transactions using \textbf{ACID fundamentals and Test-Driven Development (TDD)} approach to ensure code quality and reliability.
+    \item Secured API endpoints using Spring Security, demonstrating an understanding of application security practices.
+\end{itemize}
+
+\project{Banking System API | \normalfont{\textit{Python, Django, REST Framework}}}{\textbf{May 2024}}
+\vspace{-1.6em}
+\begin{itemize}
+\setlength\itemsep{-0.3em}
+    \item Designed and built a secure RESTful API to handle core banking operations, focusing on data integrity and business logic.
+    \item Modeled complex financial transactions and implemented endpoints for a seamless and secure user experience.
+    \item Collaborated on the project using Git and GitHub for version control and code reviews.
+\end{itemize}
+
+
+\section*{Education}
+\vspace{0.6em}
+\entry{Federal Institute of Sergipe (IFS)}{\faCalendar \space Feb 2024 -- Present (4th Semester)}{Technologist in Systems Analysis and Development}{\faMapMarker \space Aracaju, Sergipe}
+
+
+\section*{Technical Skills}
+\vspace{0.6em}
+\noindent \textbf{Languages \& Frameworks:} \textbf{Java}, \textbf{Spring Boot}, Spring Framework, Python, Django, SQL \\
+\noindent \textbf{Principles \& Practices:} \textbf{Object-Oriented Design (OOD)}, \textbf{SOLID}, \textbf{Test-Driven Development (TDD)}, Agile Methodologies, RESTful API Design \\
+\noindent \textbf{Databases \& Tools:} PostgreSQL, SQL Server, Git, GitHub, IntelliJ IDEA, VS Code \\
+\noindent \textbf{Languages (Human):} Portuguese (Native), English (Advanced), Spanish (Intermediate)
+
+\section*{Soft Skills}
+\vspace{0.6em}
+\noindent Collaboration \& Pair Programming, Fast Learner \& Knowledge Sharing, Resilience in Ambiguity, Openness to Feedback, Problem-Solving, Product-Oriented Mindset.
+
+\end{document}
