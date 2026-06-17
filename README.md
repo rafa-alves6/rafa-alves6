@@ -1,6 +1,6 @@
 Associate Developer @ Thoughtworks
 - 👋 Hi, my name is Rafael Alves!
-- Music and technology lover alike
+- Music and technology lover.
 - I live in Brazil and I speak Portuguese and English fluently.
 - 3rd-year Systems Analysis and Development student at IFS - Federal Institute of Sergipe (Associate's/Technologist Degree).
 - reach me at rafaelalves7393@gmail.com
